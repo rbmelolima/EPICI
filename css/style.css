@@ -292,7 +292,7 @@ h6 {
 }
 
 #mobile-nav-toggle i {
-  color: #555;
+  color: #BF1523;
 }
 
 /* Mobile Nav Styling */
@@ -303,7 +303,7 @@ h6 {
   padding-top: 18px;
   bottom: 0;
   z-index: 998;
-  background: rgba(52, 59, 64, 0.9);
+  background: #388C35;
   left: -260px;
   width: 260px;
   overflow-y: auto;
@@ -364,7 +364,7 @@ h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(52, 59, 64, 0.9);
+  background: rgba(241, 250, 249, 0.4);
   display: none;
 }
 
@@ -908,9 +908,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #f2f5f8;
+  background: #0D0D0D;
   padding: 0 0 30px 0;
   font-size: 14px;
+  color: whitesmoke;
 }
 
 #footer .copyright {
@@ -1075,14 +1076,82 @@ body.mobile-nav-active #mobile-nav-toggle {
   .mapa{
     margin-right: 0px;
     margin-bottom: 30px;
+    height: 400px;
   }
-  
-
-
 }
 
 @media (max-width: 576px) {
   #contact #google-map {
     margin-top: 20px;
   }
+}
+
+.linha {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+/*
+  definindo largura e altura do mapa
+*/
+.mapa {
+  height: 400px;
+  width: 400px;
+}
+/*
+  fazendo a imagem ecalar suavemente
+*/
+.galimg {
+  transition: 0.2s
+}
+
+.galimg:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* 
+  usando scale sobreposto à midia mobile
+*/
+@media (max-width:728px){ 
+.galimg:hover {
+  -webkit-transform: scale(1.0);
+  -moz-transform: scale(1.0);
+  -o-transform: scale(1.0);
+  -ms-transform: scale(1.0);
+  transform: scale(1.0);
+}}
+
+.inverter {
+  -webkit-transform: rotate(180);
+  -moz-transform: rotate(180);
+  -o-transform: rotate(180);
+  -ms-transform: rotate(180);
+  transform: rotate(180);
 }
