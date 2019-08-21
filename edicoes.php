@@ -1,3 +1,7 @@
+<?php 
+    $configs = include('config.php');
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -37,51 +41,20 @@
 <body id="body">
 
     <!--==========================
-        Barra superior
+        Barra Superior
     ============================-->
-    <section id="topbar" class="d-none d-lg-block">
-        <div class="container clearfix">
-            <div class="contact-info float-left">
-                <i class="fa fa-envelope-o"></i> <a href="epici.cbt@gmail.com">epici.cbt@gmail.com</a>
-                <i class="fa fa-phone"></i> +55 13 999999999
-            </div>
-
-            <!-- LINKS PARA REDES SOCIAIS
-                <div class="social-links float-right">
-                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-                <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-            </div> -->
-
-        </div>
-    </section>
+    <?php 
+        echo $configs["topbar"];
+    ?>
 
     <!--==========================
         Cabeçalho
     ============================-->
-    <header id="header">
-        <div class="container">
-            <div id="logo" class="pull-left">
-                <h1><a href="index.html">EPIC<span>I</span></a></h1>
-                <!-- Uncomment below if you prefer to use an image logo -->
-                <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
-            </div>
+    <?php echo $configs["header"]?>
 
-            <nav id="nav-menu-container">
-                <ul class="nav-menu">
-                    <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="comissao.html">Comissão Organizadora</a></li>
-                    <li><a href="submissao.html">Submissão</a></li>
-                    <li><a href="anais.html">Anais</a></li>
-                    <li><a href="aprovados.html">Aprovados</a></li>
-                    <li><a href="edicoesanteriores.html">Edições Anteriores</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                </ul>
-            </nav><!-- #nav-menu-container -->
-        </div>
-    </header><!-- #header -->
+    <!--==========================
+        Conteúdo
+    ============================-->
 
     <!--==========================
         Conteúdo
@@ -115,31 +88,20 @@
 
     </main>
 
-
     <!--==========================
         Rodapé
     ============================-->
-    <footer id="footer">
-        <div class="container">
-            
-            <div class="footer-escola row">
-                    <div class="col-md-2 center">
-                            <img style="width: 100px; height: auto;" src="img/logo_branca.png">
-                        </div>
-                <div class="col-md-10">
-                <p class="dados-escola"><span class="font-weight-bold">Endereço: </span>R. Maria Cristina, 50 - Jardim Casqueiro, Cubatão - SP, 11533-160</p>
-                <p class="dados-escola"><span class="font-weight-bold">Telefone: </span>(13) 3346-5300</p>
-                </div>
-            </div>
 
-        </div>
-    </footer><!-- #footer -->
+    <?php echo $configs["footer"]; ?>
+
+
+
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
     <!-- JavaScript Libraries -->
     <script src="lib/jquery/jquery.min.js"></script>
     <script src="lib/jquery/jquery-migrate.min.js"></script>
-    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/superfish/hoverIntent.js"></script>
     <script src="lib/superfish/superfish.min.js"></script>
@@ -148,6 +110,8 @@
     <script src="lib/magnific-popup/magnific-popup.min.js"></script>
     <script src="lib/sticky/sticky.js"></script>
 
+    <!-- Contact Form JavaScript File -->
+    <script src="contactform/contactform.js"></script>
 
     <!-- Template Main Javascript File -->
     <script src="js/main.js"></script>

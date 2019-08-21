@@ -10,12 +10,17 @@
 body {
   background: #fff;
   color: black;
-  font-family: "Open Sans", sans-serif;  
+  font-family: "Open Sans", sans-serif;
 }
 
 a {
   color: #388C35;
   transition: 0.5s;
+}
+
+main {
+  height:auto !important;
+  min-height:calc(100vh - 300px);
 }
 
 a:hover,
@@ -950,6 +955,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .pd{
   padding-left: 15%;
   padding-right: 15%;
+  padding-top: 50px;
   margin-bottom: 50px;
   text-align: justify;
   line-height: 1.8em;
@@ -1154,4 +1160,21 @@ body.mobile-nav-active #mobile-nav-toggle {
   -o-transform: rotate(180);
   -ms-transform: rotate(180);
   transform: rotate(180);
+}
+
+ol {
+  counter-reset: list;
+}
+ol > li {
+  list-style: none;
+  position: relative;
+}
+ol > li:before {
+  counter-increment: list;
+  content: counter(list, lower-alpha) ") ";
+  position: absolute;
+  left: -1.4em;
+}
+.link-dados:link {
+  color:whitesmoke;
 }
