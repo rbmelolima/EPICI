@@ -1,5 +1,5 @@
-<?php 
-    $configs = include('config.php');
+<?php
+$configs = include('config.php');
 ?>
 
 <!DOCTYPE html>
@@ -16,9 +16,7 @@
     <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
 
     <!-- Bootstrap CSS File -->
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -43,21 +41,88 @@
     <!--==========================
         Barra Superior
     ============================-->
-    <?php 
-        echo $configs["topbar"];
+    <?php
+    echo $configs["topbar"];
     ?>
 
     <!--==========================
         Cabeçalho
     ============================-->
-    <?php echo $configs["header"]?>
+    <?php echo $configs["header"] ?>
 
     <!--==========================
         Conteúdo
     ============================-->
     <main id="main">
         <section class="content pd pt-100">
-            <p> 
+            <h3>Comissão organizadora</h3>
+
+            <table class="table table-hover">
+
+                <tr>
+                    <td> Leandro Fabrício Campelo (Coordenador) </td>
+                </tr>
+                <tr>
+                    <td> Amauri Dias de Carvalho</td>
+                </tr>
+                <tr>
+                    <td> Anna Karina Fontes Gomes</td>
+                </tr>
+                <tr>
+                    <td> Arnaldo de Carvalho Júnior</td>
+                </tr>
+                <tr>
+                    <td> Elifas Levi da Silva</td>
+                </tr>
+                <tr>
+                    <td> Fernanda Luiz Teixeira</td>
+                </tr>
+                <tr>
+                    <td> Fernando Ribeiro dos Santos</td>
+                </tr>
+                <tr>
+                    <td>Flavia Daylane Tavares de Luna</td>
+                </tr>
+                <tr>
+                    <td> Jairo Augusto dos Santos</td>
+                </tr>
+                <tr>
+                    <td> Katya Lais Ferreira Patella Couto</td>
+                </tr>
+                <tr>
+                    <td> Marciel Silva Santos</td>
+                </tr>
+                <tr>
+                    <td> Marcos Marinovic Doro</td>
+                </tr>
+                <tr>
+                    <td> Rafael Stoppa Rocha</td>
+                </tr>
+                <tr>
+                    <td> Sueli Maria Preda dos Santos Torres</td>
+                </tr>
+                <tr>
+                    <td> Thiago Rodrigues Schulze</td>
+                </tr>
+                <tr>
+                    <td> Wellington Santos Ramos</td>
+                </tr>
+                <tr>
+                    <td>Danielli Deutschmann de Souza (Discente)</td>
+                </tr>
+                <tr>
+                    <td>Lucas Nascimento Veiga (Discente)</td>
+                </tr>
+                <tr>
+                    <td>Pedro Vitor Pimentel Silveira (Discente)</td>
+                </tr>
+                <tr>
+                    <td>Roger Bernardo de Melo Lima (Discente)</td>
+                </tr>
+            </table>
+            <br>
+
+            <p>
                 <a class="btn btn-danger" href="downloads/CBT.0092-2019 - Altera a CBT.0089-2019 - Comissão do 2 EPICI na SNCT.pdf"> <i class="fa fa-download" aria-hidden="true"></i> BAIXAR PORTARIA</a>
             </p>
         </section>

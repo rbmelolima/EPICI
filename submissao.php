@@ -57,6 +57,8 @@
     ============================-->
     <main id="main">
         <section class="content pd pt-100">
+
+            <h3> Submissão </h3>
             <p>
             Para participar do 2º EPICI é necessário enviar um resumo expandido da sua pesquisa (até 3 páginas).<br>
             Modelo: <a href="downloads/Modelo_Resumo_ 2 EPICI.doc"> <i class="fa fa-download" aria-hidden="true"></i> Baixar aqui</a>.<br>
