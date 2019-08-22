@@ -8,11 +8,12 @@ return array(
     <header id="header">
         <div class="container">
             <div id="logo" class="pull-left">
-                <h1><a href="index.php">EPIC<span>I</span></a></h1>
+                <h1><a href="index.php">EPI<span>CI</span></a></h1>
             </div>
             <nav id="nav-menu-container">
                 <ul class="nav-menu">
                     <li><a href="sobre.php">Sobre</a></li>
+                    <li><a href="programacao.php">Programação </a></li>
                     <li><a href="comissao.php">Comissão Organizadora</a></li>
                     <li><a href="submissao.php">Submissão</a></li>
                     <li><a href="anais.php">Anais</a></li>

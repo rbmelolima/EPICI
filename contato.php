@@ -57,31 +57,30 @@ $configs = include('config.php');
         <section class="content pd pt-100">
 
             <h3>Entre em contato</h3>
-            <form class="form" method="post" action="">
-
-                <div class="form-group">
-                    <label for="email">Assunto</label>
-                    <input type="text" class="form-control" id="assunto" name="assunto">
+            <form class="form" method="post" action="enviar.php">
+                <div class="row">
+                    <div class="form-group col-md-8">
+                        <label for="nome">Nome</label>
+                        <input placeholder="Nome" type="text" class="form-control" id="nome" name="nome">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="telefone">Telefone</label>
+                        <input placeholder="Ex.: (13) 99999-9999" type="text" class="form-control" id="telefone" name="telefone">
+                    </div>
                 </div>
-
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label for="email">Email</label>
+                        <input placeholder="Ex.: fulano@exemplo.com" type="email" class="form-control" id="email" name="email">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="assunto">Assunto</label>
+                        <input placeholder="Ex.: EPICI 2019 - (Assunto)" type="text" class="form-control" id="assunto" name="assunto">
+                    </div>
+                </div>
                 <div class="form-group">
                     <label for="mensagem">Mensagem</label>
-                    <input type="text" class="form-control" id="mensagem" name="mensagem">
-                </div>
-
-                <div class="form-group">
-                    <label for="nome">Nome</label>
-                    <input type="text" class="form-control" id="nome" name="nome">
-                </div>
-
-                <div class="form-group">
-                    <label for="telefone">Telefone</label>
-                    <input type="text" class="form-control" id="telefone" name="telefone">
-                </div>
-
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email" name="email">
+                    <textarea placeholder="Digite sua mensagem aqui..." type="textarea" class="form-control" id="mensagem" name="mensagem" > </textarea>
                 </div>
 
                 <button type="submit" class="btn btn-primary" name="enviar" value="enviar">Enviar</button>
