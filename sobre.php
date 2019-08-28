@@ -58,15 +58,7 @@ $configs = include('config.php');
             <h3>O IFSP</h3>
             <div class="row">
                 <div class="col-sm">
-                    <figure>
-                        <img class="img-fluid" src="img/ifsp-cbt.jpg" />
-
-                        <figcaption>
-                            Foto: Roger Bernardo
-                        </figcaption>
-                    </figure>
-
-
+                    <img class="img-fluid" src="img/campus.jpg" />
                 </div>
 
                 <div class="col-sm">
@@ -88,7 +80,7 @@ $configs = include('config.php');
         <section class="content pd pt-100">
             <h3>O EPICI</h3>
             <p>
-                O Encontro de Pesquisadores de Iniciação Científica (EPICI) é um evento que reúne pesquisadores e alunos de iniciação científicado Câmpus Cubatão.
+                O Encontro de Pesquisadores de Iniciação Científica (EPICI) é um evento que reúne pesquisadores e alunos de iniciação científica do Câmpus Cubatão.
                 O evento é organizado pelo Comitê de Pesquisa (COMPESQ) no âmbito da Semana Nacional de Ciência e Tecnologia (SNCT), com apoio do CNPq, visando aproximar os pesquisadores do Câmpus, estimulando e difundindo o conhecimento científico aos participantes da SNCT.
                 O evento, em sua segunda realização, tem como tema central “Bioeconomia: Diversidade e Riqueza para o Desenvolvimento Sustentável”. <br>
                 São objetivos do EPICI:

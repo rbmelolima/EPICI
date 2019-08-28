@@ -1,5 +1,5 @@
-<?php 
-    $configs = include('config.php');
+<?php
+$configs = include('config.php');
 ?>
 
 <!DOCTYPE html>
@@ -16,9 +16,7 @@
     <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
 
     <!-- Bootstrap CSS File -->
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -43,14 +41,14 @@
     <!--==========================
         Barra Superior
     ============================-->
-    <?php 
-        echo $configs["topbar"];
+    <?php
+    echo $configs["topbar"];
     ?>
 
     <!--==========================
         Cabeçalho
     ============================-->
-    <?php echo $configs["header"]?>
+    <?php echo $configs["header"] ?>
 
     <!--==========================
         Conteúdo
@@ -59,16 +57,45 @@
         <section class="content pd pt-100">
 
             <h3> Submissão </h3>
+
+            <p>Podem submeter resumos expandidos: </p>
+            <ul>
+                <li>Bolsistas do PIBIFSP ou PIVICT do IFSP; </li>
+                <li>Alunos do Ensino Médio ou dos Cursos Superiores, do IFSP ou de outras instituições, desde que seja um trabalho de pesquisa ou resultado de TCC.</li>
+            </ul>
             <p>
-            Para participar do 2º EPICI é necessário enviar um resumo expandido da sua pesquisa (até 3 páginas).<br>
-            Modelo: <a href="downloads/Modelo_Resumo_ 2 EPICI.doc"> <i class="fa fa-download" aria-hidden="true"></i> Baixar aqui</a>.<br>
-            O resumo expandido deve ser enviado para <a href="mailto:epici.cbt@gmail.com">epici.cbt@gmail.com</a>. <br>
-            <br>
-            <i>Datas importantes</i>:<br>
-            <b>Inscrição de trabalhos</b>: até 26 de setembro de 2019.<br>
-            <b>Avaliação dos resumos</b>: de 27 de setembro até 05 de outubro de 2019.<br>
-            <b>Divulgação dos trabalhos aprovados</b>: 06 de outubro de 2019.<br>
-            <b>Apresentação dos trabalhos</b>: 24 de outubro de 2019.<br>
+                Os resumos expandidos poderão ter até 2 autores (aluno e orientador), mas o aluno ficará encarregado da apresentação. A relação dos autores no trabalho deve seguir a ordem alfabética.
+            </p>
+            <p>Os resumos expandidos poderão ter até 3 páginas, contendo: </p>
+            <ul>
+                <li>Título em português; </li>
+                <li>Autor(es);</li>
+                <li>Resumo;</li>
+                <li>3 palavras-chave (termo único ou composto).</li>
+            </ul>
+
+            <p>O corpo do texto deverá conter: </p>
+            <ul>
+                <li>Introdução; </li>
+                <li>Material e Métodos;</li>
+                <li>Conclusões;</li>
+                <li>Referências.</li>
+            </ul>
+            <p><b>Consulte o modelo disponível para download:</b> <a href="downloads/Modelo_Resumo_ 2 EPICI.doc"> <i class="fa fa-download" aria-hidden="true"></i> Baixar aqui</a>.</p> <br> <br>
+
+            <h3>Pôster</h3>
+            <p> Os trabalhos de Iniciação Científica serão apresentados na modalidade pôster, devendo o autor permanecer junto ao trabalho no horário específico de apresentação determinado pelo Comitê Científico, para apresentação ao público e aos avaliadores. </p>
+            <p>Os trabalhos poderão indicar até 2 autores, mas a apresentação deverá ser conduzida apenas pelo aluno. É recomendável que os autores cheguem ao evento com pelo menos 30 minutos de antecedência em relação ao horário previsto para sua exposição. Consulte o modelo disponível para download.</p>
+
+            <br> <br>
+            <h3>Informações </h3>
+            <p>O resumo expandido deve ser enviado para <a href="mailto:epici.cbt@gmail.com">epici.cbt@gmail.com</a>.</p>
+            <p>
+                <i>Datas importantes</i>:<br>
+                <b>Inscrição de trabalhos</b>: até 26 de setembro de 2019.<br>
+                <b>Avaliação dos resumos</b>: de 27 de setembro até 05 de outubro de 2019.<br>
+                <b>Divulgação dos trabalhos aprovados</b>: 06 de outubro de 2019.<br>
+                <b>Apresentação dos trabalhos</b>: 24 de outubro de 2019.<br>
             </p>
         </section>
 
