@@ -64,7 +64,7 @@
             <h3>O que é?</h3>
             <p>
             O  Encontro  de  Pesquisadores  de  Iniciação  Científica  (EPICI)  é  um  evento  que  reúne pesquisadores e alunos de iniciação científica do Câmpus Cubatão. 
-            O evento é organizado pelo  Comitê  de  Pesquisa  (COMPESQ)  no  âmbito  da  Semana  Nacional  de  Ciência  e Tecnologia  (SNCT),  com  apoio  do  CNPq,  visando  aproximar  os  pesquisadores  do Câmpus, estimulando e difundindo o conhecimento científico aos participantes da SNCT. 
+            O evento é organizado pelo  Comitê  de  Pesquisa  (COMPESQ)  no  âmbito  da  Semana  Nacional  de  Ciência  e Tecnologia  (SNCT),  com  apoio  do  CNPq, com intuito de aproximar os pesquisadores do Câmpus, para estimular a prática da pesquisa e difundir os resultados dos estudos científicos aos participantes da SNCT. 
             O evento, em sua segunda realização, tem como tema central “Bioeconomia: Diversidade e Riqueza para o Desenvolvimento Sustentável”. <br>
             São objetivos do EPICI:
             <ul>
