@@ -66,7 +66,7 @@ $configs = include('config.php');
             <p>
                 Os resumos expandidos poderão ter até 2 autores (aluno e orientador), mas o aluno ficará encarregado da apresentação. A relação dos autores no trabalho deve seguir a ordem alfabética.
             </p>
-            <p>Os resumos expandidos poderão ter até 3 páginas, contendo: </p>
+            <p>Os resumos expandidos poderão ter até 5 páginas, contendo: </p>
             <ul>
                 <li>Título em português; </li>
                 <li>Autor(es);</li>
