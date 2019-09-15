@@ -63,8 +63,7 @@ $configs = include('config.php');
                 <li>Bolsistas do PIBIFSP ou PIVICT do IFSP; </li>
                 <li>Alunos do Ensino Médio ou dos Cursos Superiores, do IFSP ou de outras instituições, desde que seja um trabalho de pesquisa ou resultado de TCC.</li>
             </ul>
-            <p>
-                Os resumos expandidos poderão ter até 2 autores (aluno e orientador), mas o aluno ficará encarregado da apresentação. A relação dos autores no trabalho deve seguir a ordem alfabética.
+            <p>Os resumos expandidos poderão ter até 4 autores (3 alunos e orientador), mas o aluno ficará encarregado da apresentação. A relação dos autores no trabalho deve seguir a ordem alfabética.
             </p>
             <p>Os resumos expandidos poderão ter até 5 páginas, contendo: </p>
             <ul>
@@ -84,8 +83,10 @@ $configs = include('config.php');
             <p><b>Consulte o modelo disponível para download:</b> <a href="downloads/Modelo_Resumo_ 2 EPICI.doc"> <i class="fa fa-download" aria-hidden="true"></i> Baixar aqui</a>.</p> <br> <br>
 
             <h3>Pôster</h3>
-            <p> Os trabalhos de Iniciação Científica serão apresentados na modalidade pôster, devendo o autor permanecer junto ao trabalho no horário específico de apresentação determinado pelo Comitê Científico, para apresentação ao público e aos avaliadores. </p>
-            <p>Os trabalhos poderão indicar até 2 autores, mas a apresentação deverá ser conduzida apenas pelo aluno. É recomendável que os autores cheguem ao evento com pelo menos 30 minutos de antecedência em relação ao horário previsto para sua exposição. Consulte o modelo disponível para download.</p>
+            <p>Os trabalhos de Iniciação Científica serão apresentados na modalidade pôster, devendo o autor permanecer junto ao trabalho no horário específico de apresentação determinado pelo Comitê Científico, para apresentação ao público e aos avaliadores. </p>
+            <p>Os trabalhos poderão indicar até 4 autores, mas a apresentação deverá ser conduzida apenas pelos alunos. É recomendável que os autores cheguem ao evento com pelo menos 30 minutos de antecedência em relação ao horário previsto para sua exposição. Consulte o modelo disponível para download.</p>
+
+            <p><b>Consulte o modelo disponível para download:</b> <a href="downloads/modelo-poster-EPICI-2019v2.ppt"> <i class="fa fa-download" aria-hidden="true"></i> Baixar aqui</a>.</p> <br> <br>
 
             <br> <br>
             <h3>Informações </h3>

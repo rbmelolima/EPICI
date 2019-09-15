@@ -47,7 +47,7 @@ return array(
     <div class="container clearfix">
         <div class="contact-info float-left">
             <i class="fa fa-envelope-o"></i> <a href="epici.cbt@gmail.com">epici.cbt@gmail.com</a>
-            <i class="fa fa-phone"></i> +55 13 999999999
+            <i class="fa fa-phone"></i> +55 (13) 3346-5300
         </div>
 
         <!-- LINKS PARA REDES SOCIAIS
