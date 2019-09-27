@@ -93,7 +93,7 @@ $configs = include('config.php');
             <p>O resumo expandido deve ser enviado para <a href="mailto:epici.cbt@gmail.com">epici.cbt@gmail.com</a>.</p>
             <p>
                 <i>Datas importantes</i>:<br>
-                <b>Inscrição de trabalhos</b>: até 26 de setembro de 2019.<br>
+                <b>Inscrição de trabalhos</b>: até 03 de outubro de 2019.<br>
                 <b>Avaliação dos resumos</b>: de 27 de setembro até 05 de outubro de 2019.<br>
                 <b>Divulgação dos trabalhos aprovados</b>: 06 de outubro de 2019.<br>
                 <b>Apresentação dos trabalhos</b>: 24 de outubro de 2019.<br>

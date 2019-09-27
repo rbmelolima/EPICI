@@ -53,6 +53,12 @@
     <?php echo $configs["header"]?>
 
     <section class="intro pd">
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+             <strong>Inscrições prolongadas!</strong> <br> As inscrições foram prolongadas até 03 de outubro
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+                </button>
+        </div>
         <img class="img-fluid" src="img/epici.jpg" />
     </section>
 
