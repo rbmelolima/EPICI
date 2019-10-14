@@ -985,6 +985,14 @@ figcaption{
 }
 
 
+#destaque_programacao{
+  background-color: #BF1523;
+  padding: 50px;
+  width: 100%;
+  font-size: 2.8em;
+  color: whitesmoke;
+}
+
 @media (max-width: 950px) {
   .back-to-top {
     bottom: 15px;

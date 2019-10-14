@@ -1,5 +1,5 @@
-<?php 
-    $configs = include('config.php');
+<?php
+$configs = include('config.php');
 ?>
 
 <!DOCTYPE html>
@@ -16,9 +16,7 @@
     <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
 
     <!-- Bootstrap CSS File -->
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -43,25 +41,46 @@
     <!--==========================
         Barra Superior
     ============================-->
-    <?php 
-        echo $configs["topbar"];
+    <?php
+    echo $configs["topbar"];
     ?>
 
     <!--==========================
         Cabeçalho
     ============================-->
-    <?php echo $configs["header"]?>
+    <?php echo $configs["header"] ?>
 
     <!--==========================
         Conteúdo
     ============================-->
     <main id="main">
         <section class="content pd pt-100">
-            <p> 
-                <i>Em breve...</i>    
-            </p>    
+            <h3> Programação </h3>
+            <div id="destaque_programacao">24/10/2019</div>
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <th scope="row">14h00 às 16h00</th>
+                        <td>
+                            <p><b>Mesa Redonda: "Pesquisa e Empreendedorismo: Experiências exitosas"</b> </p>
+                            <p>
+                                Prof. Dr. Alexandre Maniçoba de Oliveira <br>
+                                Prof. Dr. Andre Amarante Luiz <br>
+                                Prof. Dr. Ricardo H. Nahra Hammoud <br>
+                            </p>
+                            <p>Local: Sala 109 </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">19h00 às 21h00</th>
+                        <td>
+                            <p><b>Apresentação dos Pôsteres dos alunos</b></p>
+                            <p>Local: Corredor do Auditório</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
-
     </main>
 
 
@@ -70,8 +89,6 @@
     ============================-->
 
     <?php echo $configs["footer"]; ?>
-
-
 
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 

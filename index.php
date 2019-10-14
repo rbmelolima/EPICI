@@ -1,5 +1,5 @@
-<?php 
-    $configs = include('config.php');
+<?php
+$configs = include('config.php');
 ?>
 
 <!DOCTYPE html>
@@ -16,9 +16,7 @@
     <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
 
     <!-- Bootstrap CSS File -->
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -43,22 +41,16 @@
     <!--==========================
         Barra Superior
     ============================-->
-    <?php 
-        echo $configs["topbar"];
+    <?php
+    echo $configs["topbar"];
     ?>
 
     <!--==========================
         Cabeçalho
     ============================-->
-    <?php echo $configs["header"]?>
+    <?php echo $configs["header"] ?>
 
     <section class="intro pd">
-    <div class="alert alert-danger alert-dismissible fade show" role="alert">
-             <strong>Inscrições prolongadas!</strong> <br> As inscrições foram prolongadas até 03 de outubro
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-                </button>
-        </div>
         <img class="img-fluid" src="img/epici.jpg" />
     </section>
 
@@ -69,29 +61,31 @@
         <section class="content pd pt-100">
             <h3>O que é?</h3>
             <p>
-            O  Encontro  de  Pesquisadores  de  Iniciação  Científica  (EPICI)  é  um  evento  que  reúne pesquisadores e alunos de iniciação científica do Câmpus Cubatão. 
-            O evento é organizado pelo  Comitê  de  Pesquisa  (COMPESQ)  no  âmbito  da  Semana  Nacional  de  Ciência  e Tecnologia  (SNCT),  com  apoio  do  CNPq, com intuito de aproximar os pesquisadores do Câmpus, para estimular a prática da pesquisa e difundir os resultados dos estudos científicos aos participantes da SNCT. 
-            O evento, em sua segunda realização, tem como tema central “Bioeconomia: Diversidade e Riqueza para o Desenvolvimento Sustentável”. <br>
-            São objetivos do EPICI:
-            <ul>
-            <li>Incentivar a apresentação dos trabalhos de iniciação científica em desenvolvimento no Câmpus Cubatão;</li>
-            <li>Promover a participação de pesquisadores do Câmpus Cubatão; </li>
-            <li>Divulgar o conhecimento científico para a população da região. </li>
-            </ul></p>
+                O Encontro de Pesquisadores de Iniciação Científica (EPICI) é um evento que reúne pesquisadores e alunos de iniciação científica do Câmpus Cubatão.
+                O evento é organizado pelo Comitê de Pesquisa (COMPESQ) no âmbito da Semana Nacional de Ciência e Tecnologia (SNCT), com apoio do CNPq, com intuito de aproximar os pesquisadores do Câmpus, para estimular a prática da pesquisa e difundir os resultados dos estudos científicos aos participantes da SNCT.
+                O evento, em sua segunda realização, tem como tema central “Bioeconomia: Diversidade e Riqueza para o Desenvolvimento Sustentável”. <br>
+                São objetivos do EPICI:
+                <ul>
+                    <li>Incentivar a apresentação dos trabalhos de iniciação científica em desenvolvimento no Câmpus Cubatão;</li>
+                    <li>Promover a participação de pesquisadores do Câmpus Cubatão; </li>
+                    <li>Divulgar o conhecimento científico para a população da região. </li>
+                </ul>
+            </p>
         </section>
 
         <section class="content pd">
             <h3>Quando e onde?</h3>
             <p>
-            O  2º  EPICI  ocorrerá  durante  a Semana  Nacional  de  Ciência  e  Tecnologia (SNCT), concomitantemente com outros eventos:
-            <ol type="a">
-                <li><b>FECITEC</b> - Feira de Ciências e Tecnologia;</li>
-                <li><b>TECHWEEK</b> – Semana de Tecnologia;</li>
-                <li><b>SEARCM</b> - Semana de Arte, Cultura, Corpo e  Movimento;</li>
-                <li><b>SENLB</b> - Semana  Nacional  do  Livro  e  da  Biblioteca;</li>
-                <li><b>SEAUT</b> - Semana de Automação;</li>
-                <li><b>II Semana de Letras</b>;</li>
-                <li><b>VI WMO</b> – Workshop de Micro-ondas.</li></ol>    
+                O 2º EPICI ocorrerá durante a Semana Nacional de Ciência e Tecnologia (SNCT), concomitantemente com outros eventos:
+                <ol type="a">
+                    <li><b>FECITEC</b> - Feira de Ciências e Tecnologia;</li>
+                    <li><b>TECHWEEK</b> – Semana de Tecnologia;</li>
+                    <li><b>SEARCM</b> - Semana de Arte, Cultura, Corpo e Movimento;</li>
+                    <li><b>SENLB</b> - Semana Nacional do Livro e da Biblioteca;</li>
+                    <li><b>SEAUT</b> - Semana de Automação;</li>
+                    <li><b>II Semana de Letras</b>;</li>
+                    <li><b>VI WMO</b> – Workshop de Micro-ondas.</li>
+                </ol>
             </p>
             <br>
             <div class="clearfix position-relative">
