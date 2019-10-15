@@ -965,7 +965,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 700;
   position: relative;
   padding-bottom: 20px;
-  }
+}
 
 .intro{
   margin: 0 auto;
@@ -991,6 +991,17 @@ figcaption{
   width: 100%;
   font-size: 2.8em;
   color: whitesmoke;
+}
+
+#aprovados{
+  margin: 0;
+  padding: 0;
+}
+
+#aprovados li{
+  margin-bottom: 20px;
+  list-style: none;   
+  border-bottom: 1px solid #D4D4D4;
 }
 
 @media (max-width: 950px) {
