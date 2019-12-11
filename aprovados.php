@@ -37,14 +37,12 @@ $configs = include('config.php');
 </head>
 
 <body id="body">
-
     <!--==========================
         Barra Superior
     ============================-->
     <?php
     echo $configs["topbar"];
     ?>
-
     <!--==========================
         Cabeçalho
     ============================-->
@@ -74,7 +72,6 @@ $configs = include('config.php');
                 <li>Implementação e aplicação de modelo para redes neurais convolucionais de máscara.</li>
                 <li>Laboratório Maxwell - pesquisa e divulgação do Littlemax.</li>
                 <li>Levantamento e análise de formas de onda de uma rede PROFIBUS DP com cabeamento em diferentes condições. </li>
-                <li>Madame Bovary e o suicídio anômico apresentado por Durkheim.</li>
                 <li>Mapeamento de poluição luminosa na baixada santista. </li>
                 <li>Marcadores conversacionais presentes na língua falada na Baixada Santista/SP.</li>
                 <li>Posicionamento linear automatizado utilizando arduino.</li>
@@ -87,17 +84,13 @@ $configs = include('config.php');
                 <li>Uma reflexão sobre a coleta seletiva na cidade de Praia Grande. </li>
             </ul>
         </section>
-
     </main>
-
 
     <!--==========================
         Rodapé
     ============================-->
 
     <?php echo $configs["footer"]; ?>
-
-
 
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
@@ -120,5 +113,4 @@ $configs = include('config.php');
     <script src="js/main.js"></script>
 
 </body>
-
 </html>
